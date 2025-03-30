@@ -1,4 +1,4 @@
-# Pet Boutique project
+# Superman e Lois project (Superman and Lois)
 
 ## [PT-BR]
 Projeto de uma landing page fictícia da série Superman e Lois usando box model e outros recursos relacionados
