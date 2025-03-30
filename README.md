@@ -4,11 +4,11 @@
 Projeto de uma landing page fictícia da série Superman e Lois usando box model e outros recursos relacionados
 
 ## [EN-US]
-Fictional landing page of Superman and Lois sitcon using box model and other related features.
+Fictional landing page of Superman and Lois TV series using box model and other related features.
 
 ## PROGRESSO
-- [ ] Estruturação da página HTML para posterior estilização
-- [ ] Reset das especificações CSS padrões
+- [X] Estruturação da página HTML para posterior estilização
+- [X] Reset das especificações CSS padrões
 - [ ] Definição de elementos essenciais e estilizações comuns
 - [ ] Sessão 1 - Topo - concluída
 - [ ] Sessão 2 - Banner - concluída
@@ -21,8 +21,8 @@ Fictional landing page of Superman and Lois sitcon using box model and other rel
 
 
 ## PROGRESS
-- [ ] HTML page structuring to styling process
-- [ ] Reset CSS patterns
+- [X] HTML page structuring to styling process
+- [X] Reset CSS patterns
 - [ ] Setting basis and commons styles and elements
 - [ ] Section 1 - Header - concluded
 - [ ] Section 2 - Banner - concluded
