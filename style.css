@@ -76,10 +76,11 @@ h2 {
 #secao-banner {
   background-image: url('img/capa.jpg');
   height: calc(100vh - 74px);
+  min-height: 130vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #020202;
-  background-position: center;
+  background-position: top;
 }
 
 /* Seção Sinopse | Synopsis Section  */
