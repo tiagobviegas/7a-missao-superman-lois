@@ -15,10 +15,52 @@ h2 {
   font-size: 28px;
 }
 
+#secao-temporadas,
+#secao-imagens,
+#secao-sinopse,
+#secao-canais {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#secao-imagens,
+#secao-sinopse,
+#secao-canais,
+#container-temporadas {
+  padding: 50px 20px;
+}
+
+#secao-topo,
+#container-banner,
+#container-sinopse,
+#container-canais,
+#container-temporadas,
+.subcontainer-temporadas,
+#container-imagens,
+#rodape {
+  width: 100%;
+}
+
+#secao-topo a,
+#secao-canais h2,
+#secao-canais p,
+#secao-imagens h2,
+#secao-imagens div span,
+#rodape {
+  color: #ffffff;
+}
+
+#container-canais,
+#container-imagens,
+#rodape {
+  background-color: #312135;
+}
+
+
 /* Seção Topo | Header Section  */
 
 #secao-topo {
-  width: 100%;
   padding: 20px 0px;
   background-color: #040207;
 }
@@ -27,14 +69,9 @@ h2 {
   font-size: 28px;
   margin: 0px 35px;
   text-decoration: none;
-  color: #ffffff;
 }
 
 /* Seção Banner | Banner Section  */
-
-#container-banner {
-  width: 100%;
-}
 
 #secao-banner {
   background-image: url('img/capa.jpg');
@@ -48,15 +85,7 @@ h2 {
 /* Seção Sinopse | Synopsis Section  */
 
 #container-sinopse {
-  width: 100%;
   background-color: #ffffff;
-}
-
-#secao-sinopse {
-  padding: 50px 20px;
-  max-width: 1024px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #secao-sinopse h1 {
@@ -76,21 +105,8 @@ h2 {
 
 /* Seção Canais | Channels Section  */
 
-#container-canais {
-  width: 100%;
-  background-color: #312135;
-}
-
-#secao-canais {
-  padding: 50px 20px;
-  max-width: 1024px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 #secao-canais h2 {
   margin-bottom: 50px;
-  color: #ffffff;
 }
 
 #secao-canais img {
@@ -100,29 +116,20 @@ h2 {
 
 #secao-canais p {
   font-size: 20px;
-  color: #ffffff;
 }
 
 /* Seção Temporadas | Seasons Section  */
 
 #container-temporadas {
-  width: 100%;
   background-color: #ffffff;
-  padding: 50px 20px;
 }
 
-#secao-temporadas {
-  max-width: 1024px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 #secao-temporadas h2 {
   margin-bottom: 50px;
 }
 
 .subcontainer-temporadas {
-  width: 100%;
   box-shadow: 0px 0px 10px 3px #cac4c4;
   margin-bottom: 40px;
   min-height: 160px;
@@ -141,21 +148,8 @@ h2 {
 
 /* Seção Imagens | Image Section  */
 
-#container-imagens {
-  width: 100%;
-  background-color: #312135;
-}
-
-#secao-imagens {
-  max-width: 1024px;
-  padding: 50px 20px;
-  margin-left: auto;
-  margin-right: auto
-}
-
 #secao-imagens h2 {
   margin-bottom: 50px;
-  color: #ffffff;
 }
 
 .galeria {
@@ -207,7 +201,6 @@ h2 {
 
 #secao-imagens div span {
   width: 20px;
-  color: #ffffff;
 }
 
 #secao-imagens div {
@@ -217,9 +210,6 @@ h2 {
 /* Seção Rodapé | Footer Section  */
 
 #rodape {
-  width: 100%;
   padding: 40px 0px;
   box-shadow: 0px 10px 20px 5px #ffffff;
-  background-color: #312135;
-  color: #ffffff;
 }
